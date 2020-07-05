@@ -1,12 +1,14 @@
 {
   "editor.minimap.enabled": false,
+  "editor.lineNumbers": "off",
   "editor.wrappingIndent": "indent",
   "editor.overviewRulerBorder": false,
   "editor.lineHeight": 24,
-  "workbench.colorTheme": "Gray Matter Light",
+  "workbench.colorTheme": "Gray Matter Dark",
   "[markdown]": {
     "editor.quickSuggestions": true
   },
+  "gitlens.blame.toggleMode": "window",
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync"
 }
