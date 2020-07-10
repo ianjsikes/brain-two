@@ -1,5 +1,6 @@
 {
   "editor.minimap.enabled": false,
+  "workbench.statusBar.visible": false,
   "editor.lineNumbers": "off",
   "editor.wrappingIndent": "indent",
   "editor.overviewRulerBorder": false,
@@ -9,6 +10,8 @@
     "editor.quickSuggestions": true
   },
   "gitlens.blame.toggleMode": "window",
+  "gitlens.blame.highlight.enabled": false,
+  "gitlens.currentLine.enabled": false,
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync"
 }

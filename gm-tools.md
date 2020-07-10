@@ -1,5 +1,9 @@
 # GM Tools
 
+## Monster/Encounter
+
+- [GiffyGlyph's Monster Maker][monster-maker].
+
 ## Blogs
 
 - [Mash-up Character Method][mashup]. Mash two conflicting archetypes to make interesting NPCs.
@@ -21,6 +25,7 @@
 - [Which Pissant Noble am I Talking To?][which-noble]. Generate nobles and their rich people bullshit.
 
 ---
+
 [dungen]: https://dungen.app/dungen/
 [dndspeak]: http://dndspeak.com/
 [ose-gen]: https://oldschoolessentials.necroticgnome.com/generators/
@@ -32,3 +37,4 @@
 [monster-mechanics-5e]: https://swampofmonsters.blogspot.com/2020/05/100-monster-mechanics.html
 [which-noble]: https://perilandplunder.wordpress.com/2020/06/01/which-pissant-noble-am-i-talking-to/
 [tavern-brawl]: https://espharel.blogspot.com/2020/06/how-to-start-and-finish-tavern-brawl.html
+[monster-maker]: https://giffyglyph.com/monstermaker/app/

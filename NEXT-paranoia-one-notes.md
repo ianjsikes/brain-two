@@ -1,0 +1,56 @@
+# NEXT Paranoia One Notes
+
+## Prep
+
+### Overview
+
+- Depressed Scrub-bot needs help achieving chores.
+- A yellow and orange clone accompany and do not help.
+- Y & O are there to manage drug deal in deadzone beneath sector HYT.
+- They try to screw eachother over and blackmail the party.
+
+### NPCs
+
+- Vernon-Y-HYT-2, your supervisor. Hooked nose, pointy chin. Bald. Always tired and overworked.
+  - Secretly a Frankenstein Destroyer
+- Jenny-O-THA-3, oversees equipment. Cheery, wired, too many Wake-E-Wake pills.
+  - Secretly a Mystic
+- Awarish-R-HYT-1, you took her job. Loathes you. Works with Anti-Mutants despite teleporting.
+- Scrub-bot 002. Bitter, lives in shadow of 001.
+
+### Briefing
+
+Vernon assembles you. He tired.
+Briefing room:
+
+- One less chair than necessary.
+- Someone, somewhere nearby, is screaming.
+  Help scrubbot. Assign bonus duties.
+
+### Equipment
+
+Jenny-O-THA is running late. Quickly hands out equipment. Then players go to Scrub-Bot 002.
+
+### Scrub Bot
+
+Chicken-shaped, boxy, slightly taller than person. Hates 001 because it took out a terrorist cell using a toothbrush and is now a hero in luxury.
+002 is misbehaving. Accompanied by:
+
+- Oklo-Y-THB from R&D
+  - Broad woman.
+  - Obsessed with noting/recording everything. Belongs to mystics.
+- Wesley-Y-HYT from Housing Preservation and Development & Mind Control
+  - Tall, blond man. Great teeth.
+  - His promotion to green is riding on success.
+  - Free Enterprise
+    They will help but only for blackmail purposes later
+
+### Mission
+
+Basically go to "help" scrubbot, but it is too lazy/depressed to work so the party has to do it.
+Pick one or more of each "Category" of task. Overseers will help by lending useful items.
+They are very friendly about it but they want to get leverage over the players.
+
+## Summary
+
+## Ups and Downs
