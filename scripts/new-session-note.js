@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-const Handlebars = require('handlebars');
-const fs = require('fs');
-const path = require('path');
+const Handlebars = require("handlebars");
+const fs = require("fs");
+const path = require("path");
 const args = process.argv.slice(2);
 
 const template = Handlebars.compile(`# {{isodate}} {{unkebab campaign}} Notes
@@ -26,17 +26,21 @@ const isodate = () => {
     date.getUTCDate()
   )}`;
 };
-Handlebars.registerHelper('isodate', isodate);
+Handlebars.registerHelper("isodate", isodate);
 
-Handlebars.registerHelper('unkebab', (str) => {
+Handlebars.registerHelper("unkebab", (str) => {
   const capitalize = (str) => `${str.charAt(0).toUpperCase()}${str.slice(1)}`;
-  return str.split('-').map(capitalize).join(' ');
+  return str.split("-").map(capitalize).join(" ");
 });
 
 // const date = isoDate(new Date());
 const campaign = args[0];
 
 fs.writeFileSync(
-  path.join(process.cwd(), `${isodate()}-${campaign}-notes.md`),
+  path.join(
+    process.cwd(),
+    "session-notes",
+    `${isodate()}-${campaign}-notes.md`
+  ),
   template({ campaign })
 );

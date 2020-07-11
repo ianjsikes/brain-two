@@ -13,5 +13,7 @@
   "gitlens.blame.highlight.enabled": false,
   "gitlens.currentLine.enabled": false,
   "git.enableSmartCommit": true,
-  "git.postCommitCommand": "sync"
+  "git.postCommitCommand": "sync",
+  "files.insertFinalNewline": false,
+  "markdown-links.openColumn": "beside"
 }
