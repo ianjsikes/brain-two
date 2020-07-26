@@ -24,6 +24,11 @@ Ex: "Mickey Dee has a piece of info you need"
 
 ## GOAL-ORIENTED OPPONENTS
 
+Don't prep enemies' reaction to PC's actions because you can't predict their actions.
+Just prep their _goals_, then react to how the PCs conflict w/ that.
+
+## DON'T PLAN SPECIFIC CONTINGENCIES
+
 ---
 
 [source]: https://thealexandrian.net/wordpress/4147/roleplaying-games/dont-prep-plots

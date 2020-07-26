@@ -15,5 +15,5 @@
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync",
   "files.insertFinalNewline": false,
-  "markdown-links.openColumn": "beside"
+  "markdown-links.openColumn": "one"
 }
