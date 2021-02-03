@@ -1,5 +1,9 @@
 # RPi Plex Server Notes
 
+connect:
+`ssh pi@192.168.1.142`
+pwd: mambomouth420
+
 [[computers]]
 
 Notes on steps taken to setup Raspberry Pi as a Plex media server.

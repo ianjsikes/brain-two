@@ -1,0 +1,69 @@
+!cmaster --add,condition=distracted,duration=1,direction=-1
+!cmaster --add,target,id=-MIkdkoPxdYO1KeKndsA,condition=distracted
+
+!ia --chat#@{selected|character_id}|SLongbow --show#getattrs{{!!c#@{target|token_id} !!emptyok !!l#cursed !!frmt#fr#cursed#`1` }}
+!ia --load#@{selected|character_id}|SLongbow --show#getattrs{{!!c#@{target|token_id} !!emptyok !!l#cursed !!frmt#fr#cursed#`1` }}
+
+!ia --chat# --show#getattr{{!!a#(@{target|character_id})|(cursed) }}
+
+
+!power {{ 
+  --name|Longbow
+  --Attack Roll|You roll [[ [$atk] ?{Roll Type|Normal,1d20|Advantage,3d20kh1|Disadvantage,2d20kl1} + @{selected|dexterity_mod} + @{selected|pb} ]]
+  --?? $atk.base == 20 ?? skipto*1|Critical
+  --?? $atk.base == 19 AND 01 == 1 ?? skipto*2|Critical
+  --?? $atk.base == 1 ?? skipto*3|Fumble
+  --?? $atk.total >= @{target|npc_ac} ?? skipto*4|Hit
+  
+  --:Miss| Since we didn't skip to anywhere else, assume a miss
+  --Miss|Your attack missed.
+  --skipto*5|EndOfCard
+
+  --:Fumble|
+  --Fumble|You miss horribly!
+  --Extra Fumble Stuff|Maybe a roll on a fumble table?
+  --skipto*6|EndOfCard
+
+  --:Hit|
+  --Hit!|Your attack hit for [[ [$Dmg] 1d8 + 1d4 + @{selected|dexterity_mod} + ( 01 * @{selected|pb} ) ]] damage!
+  --skipto*7|EndOfCard
+
+  --:Critical|
+  --Critical Hit|You strike a decisive blow for [[ [$CritDmg] 2d8 + 2d4 + @{selected|dexterity_mod} + ( 01 * @{selected|pb} ) ]] damage!
+
+  --:EndOfCard|
+}}
+
+!ia --chat#@{selected|character_id}|Powercard --iscursed#getattrs{{!!c#@{target|token_id} !!emptyok !!l#cursed !!frmt#fr#cursed#`1`}} --dexmod#getattrs{{!!c#@{selected|token_id} !!l#dexterity_mod}}
+!power {{
+  --name|TEST TEST TEST
+  --Attack Roll|You roll [[ 1d20 + dexmod ]]
+  --Hit!|Your attack hit for [[ 1d8 + 1d4 + dexmod + ( 0iscursed * 4 ) ]] damage!
+}}
+
+!power {{ 
+  --name|Longbow
+  --Attack Roll|You roll [[ [$atk] ?{Roll Type|Normal,1d20|Advantage,3d20kh1|Disadvantage,2d20kl1} + @{selected|dexterity_mod} + @{selected|pb} ]]
+  --?? $atk.base == 20 ?? skipto*1|Critical
+  --?? $atk.base == 19 AND 0show == 1 ?? skipto*2|Critical
+  --?? $atk.base == 1 ?? skipto*3|Fumble
+  --?? $atk.total >= @{target|npc_ac} ?? skipto*4|Hit
+  
+  --:Miss| Since we didn't skip to anywhere else, assume a miss
+  --Miss|Your attack missed.
+  --skipto*5|EndOfCard
+
+  --:Fumble|
+  --Fumble|You miss horribly!
+  --Extra Fumble Stuff|Maybe a roll on a fumble table?
+  --skipto*6|EndOfCard
+
+  --:Hit|
+  --Hit!|Your attack hit for [[ [$Dmg] 1d8 + 1d4 + @{selected|dexterity_mod} + ( 0show * @{selected|pb} ) ]] damage!
+  --skipto*7|EndOfCard
+
+  --:Critical|
+  --Critical Hit|You strike a decisive blow for [[ [$CritDmg] 2d8 + 2d4 + @{selected|dexterity_mod} + ( 0show * @{selected|pb} ) ]] damage!
+
+  --:EndOfCard|
+}}

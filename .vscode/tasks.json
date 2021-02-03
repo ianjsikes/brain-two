@@ -24,8 +24,8 @@
       "id": "campaignName",
       "type": "pickString",
       "description": "Name of RPG campaign",
-      "options": ["quarantine-crawl", "paranoia-one"],
-      "default": "quarantine-crawl"
+      "options": ["salty-seas", "paranoia-one"],
+      "default": "salty-seas"
     }
   ]
 }

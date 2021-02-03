@@ -15,5 +15,8 @@
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync",
   "files.insertFinalNewline": false,
-  "markdown-links.openColumn": "one"
+  "pasteImage.path": "${projectRoot}/img",
+  "pasteImage.forceUnixStyleSeparator": true,
+  "md-graph.graph.focusNeighborDepth": 2,
+  "md-graph.graph.defaultMode": "FOCUS"
 }

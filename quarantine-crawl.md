@@ -9,7 +9,53 @@ A (supposedly) low-prep run through [[dnd]] Tales From The Yawning Portal.
 [Here are][shrine-gm-notes] some notes on the various rooms of the dungeon.
 There's also these expanded rules for [playing Pelota][pelota].
 
+## Part 3: White Plume Mountain
+
+Tweaks: I've added a complication. Various other groups of mercenaries, heroes, etc. are competing to fetch the magical weapons and return them for rewards.
+NOTE: Come up with magical items for Frank & Ugen
+
+Groups:
+
+- Identical triplet barbarians that do tons of damage but got no brains. Stumped on the first puzzle they find.
+
+- Lords of Blacktower
+  A group of cultist-mercenaries that use necromancy to loot dungeons for relics to gain power.
+  They use zombies, disguised in their signature black & purple robes, to test traps.
+  When others are around, they hide their necromancy and act like regular mercenaries.
+  They are secretive but not openly hostile.
+
+  Members:
+
+  - Varbain Sharn. Distracted, bird-like elf priestess. Won't make eye contact. Too busy controlling
+    all the zombies to focus. Slightly germanish, confused accent.
+  - Gurtwald. Bulldog-esque bureaucratic veteran. Tries very hard to reason rather than fight. Only
+    appeals to logic/decorum. Voice: Like Vincent D'Onofrio in MIB.
+  - Zombies. Appear as very quiet, obedient footsoldiers. A bit stinky. Hoods low covering faces.
+    If Varbain is too distracted, they might become unruly.
+
+- Greygoat's Gang
+  Brutal, nasty warband of beastfolk, mutants and outcasts. Violently wreck their way through
+  dungeons, playing as dirty as possible. Often backstab eachother and fight for dominance. Will
+  probably attack on sight, but the group is disjointed and may split off.
+
+  Members:
+
+  - Greygoat the Defiler. Stubborn and ruthless. Punishes from afar with _Blightbow_.
+  - Vilal Morntergan. Lady thief famous for quad-wielding poison daggers (yes she has 4 arms).
+  - An entourage of goblins and gnolls.
+
+Party travels by horse to White Plume Mountain. They leave their horses and belongings with a stablehand at the nearest village (5 miles away).
+
+APPROACH:
+Perfectly conical. One entrance "Wizard's mouth". Every 30 seconds, breaths in/out. Whistles loudly. 8ft diameter, 40 feet deep. Crack at end snuffs torches. Hot steam/cold air. Inches of muck on floors. Trapdoor at back end.
+GENERAL: 10 feet corridors carved out of stone. 8x8 oak&iron doors. Swollen (DC 15 STR to open) not rotten. 1 foot of water w/ slippery mud.
+
 ---
+
+RIP 9/19/20
+The party was TPK'd during the final boss fight against Keraptis. I tweaked White Plume Mountain by adding a two-stage boss fight against Keraptis himself. It wasn't super overpowered, and the party was really only 1-2 rounds from killing him. But Beau went down, and then Ugen crit-failed the FIRST death save and died. After that, it was all over.
+---
+
 [shrine-gm-notes]: https://chaoticneutraldm.com/2019/04/25/hidden-shrine-of-tamoachan/
 [pelota]: https://chaoticneutraldm.com/2020/01/31/playing-pelota-in-the-hidden-shrine-of-tamoachan/
 

@@ -1,0 +1,127 @@
+{
+  "main": {
+    "id": "19e02955215fd68d",
+    "type": "split",
+    "children": [
+      {
+        "id": "bc698c7ad3b1d723",
+        "type": "leaf",
+        "state": {
+          "type": "localgraph",
+          "state": {
+            "file": "adventure-ideas.md",
+            "options": {
+              "search": "",
+              "localJumps": 1,
+              "localBacklinks": true,
+              "localForelinks": true,
+              "localInterlinks": false,
+              "showTags": false,
+              "showAttachments": false,
+              "hideUnresolved": false,
+              "showArrow": false,
+              "textFadeMultiplier": 0,
+              "nodeSizeMultiplier": 1,
+              "lineSizeMultiplier": 1,
+              "centerStrength": 0.518713248970312,
+              "repelStrength": 10,
+              "linkStrength": 1,
+              "linkDistance": 250,
+              "scale": 1.8247443779736898
+            }
+          }
+        }
+      },
+      {
+        "id": "d421f87e405815d7",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "adventure-ideas.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "95a5506f714f1e8e",
+    "type": "split",
+    "children": [
+      {
+        "id": "a292ede4bda8fd8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1fcb94913f51700a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#with"
+              }
+            }
+          },
+          {
+            "id": "6de7b7573597f1cf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f59a79638d2f452f",
+    "type": "split",
+    "children": [
+      {
+        "id": "a0ca64ef1417d324",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5ea8b8f0f9fc5c3c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "adventure-ideas.md"
+              }
+            }
+          },
+          {
+            "id": "1e685a50dd54bdeb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "lastOpenFiles": [
+    "adventure-ideas.md",
+    "Adventure Ideas.md",
+    "tower-of-zenopus.md",
+    "saltmarsh-locations.md",
+    "lizardfolk-lair.md",
+    "kingdom-of-keoland.md",
+    "scarlet-brotherhood.md",
+    "anders-solomor.md",
+    "saltmarsh-npcs.md",
+    "feliza-the-cook.md"
+  ]
+}
